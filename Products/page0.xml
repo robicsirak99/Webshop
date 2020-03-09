@@ -1,0 +1,38 @@
+<x>
+    <div class="product">
+        <img class="product_img" src="Images/samsung1.jpg"/>
+        <p class="name">Samsung Galaxy S9 </p>
+        <p class="on_storage">- raktáron -</p>
+        <p class="price">189.990 Ft</p>
+        <p class="buy_button"><a href="asd.com"><img src="Images/basket.gif"/> Kosárba</a></p>
+    </div>
+    <div class="product">
+        <img class="product_img" src="Images/xiaomi1.jpg"/>
+        <p class="name">Xiaomi Black Shark </p>
+        <p class="on_storage">- raktáron -</p>
+        <p class="price">154.989 Ft</p>
+        <p class="buy_button"><a href="asd.com"><img src="Images/basket.gif"/> Kosárba</a></p>
+    </div>
+    <div class="product">
+        <img class="product_img" src="Images/apple1.jpg"/>
+        <p class="name">Apple iPhone X </p>
+        <p class="on_storage">- raktáron -</p>
+        <p class="price">375.190 Ft</p>
+        <p class="buy_button"><a href="asd.com"><img src="Images/basket.gif"/> Kosárba</a></p>
+    </div>
+    <div class="product">
+        <img class="product_img" src="Images/samsung.jpg"/>
+        <p class="name">Samsung Galaxy Note 9 </p>
+        <p class="on_storage">- raktáron -</p>
+        <p class="price">289.600 Ft</p>
+        <p class="buy_button"><a href="asd.com"><img src="Images/basket.gif"/> Kosárba</a></p>
+    </div>
+    <div class="product"></div>
+    <div class="product"></div>
+    <div class="product"></div>
+    <div class="product"></div>
+    <div class="product"></div>
+    <div class="product"></div>
+    <div class="product"></div>
+    <div class="product"></div>
+</x>

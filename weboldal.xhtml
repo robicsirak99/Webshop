@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Weblap</title>
+        <link id="link" rel="stylesheet" type="text/css" href="style.css" />
+        <script src="script.js"></script>
+    </head>
+    <body onload="loadPage0();">
+        <div id="main">
+            <div id="menu">
+                <div class="M" id="button0"><a href="javascript:changePage('page0',0)">Főoldal</a></div>
+                <div class="M" id="button1"><a href="javascript:changePage('page1',1)">Telefonok</a></div>
+                <div class="M" id="button2"><a href="javascript:changePage('page2',2)">Okosórák</a></div>
+                <div class="M" id="button3"><a href="javascript:changePage('page3',3)">Laptopok</a></div>
+                <div class="M" id="button4"><a href="javascript:changePage('page4',4)">Perifériák</a></div>
+                <div class="D" id="button5">
+                    <a href="javascript:dropDown('dropdown_content')"><img src="Images/gear.gif"></img></a>
+                    <div class="dropdown_content"><a href="javascript:changeStyle('dropdown_content','style.css')">DARK</a></div>
+                    <div class="dropdown_content"><a href="javascript:changeStyle('dropdown_content','style2.css')">WHITE</a></div>
+                </div>
+            </div>
+            
+            <div class="page_opened" id="page0" >
+                <div class="products_on_sale" >
+                    <div class="text">AKCIÓK!</div>
+                    <div id="on_sale" class="on_sale" >
+                        <div class="product" id="product00"></div>
+                        <div class="product" id="product01"></div>
+                        <div class="product" id="product02"></div>
+                        <div class="product" id="product03"></div>
+                        <div class="product" id="product04"></div>
+                        <div class="product" id="product05"></div>
+                        <div class="product" id="product06"></div>
+                        <div class="product" id="product07"></div>
+                        <div class="product" id="product08"></div>
+                        <div class="product" id="product09"></div>
+                        <div class="product" id="product10"></div>
+                        <div class="product" id="product11"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="page_closed" id="page1">
+                <div class="products">
+                    <div class="filter">
+                        FILTER
+                        <div class="filterbutton" ><a id="fb1" href="javascript:filterFunction('ALL','phone_hidden','phone_shown','fb1',1)">Összes</a></div>
+                        <div class="filterbutton" ><a id="fb2" href="javascript:filterFunction('samsung','phone_hidden','phone_shown','fb2',1)">- Samsung</a></div>
+                        <div class="filterbutton" ><a id="fb3" href="javascript:filterFunction('huawei','phone_hidden','phone_shown','fb3',1)">- Huawei</a></div>
+                        <div class="filterbutton" ><a id="fb4" href="javascript:filterFunction('iphone','phone_hidden','phone_shown','fb4',1)">- iPhone</a></div>
+                        <div class="filterbutton" ><a id="fb5" href="javascript:filterFunction('nokia','phone_hidden','phone_shown','fb5',1)">- Nokia</a></div>
+                        <div class="filterbutton" ><a id="fb6" href="javascript:filterFunction('lg','phone_hidden','phone_shown','fb6',1)">- LG</a></div>
+                        <div class="filterbutton" ><a id="fb7" href="javascript:filterFunction('xiaomi','phone_hidden','phone_shown','fb7',1)">- Xiaomi</a></div>
+                    </div>
+                    <div class="product_list">
+                        <div class ="phone_shown" id="samsung"></div>
+                        <div class ="phone_shown" id="samsung2"></div>
+                        <div class ="phone_shown" id="iphone"></div>
+                        <div class ="phone_shown" id="huawei"></div>
+                        <div class ="phone_shown" id="iphone1"></div>
+                        <div class ="phone_shown" id="xiaomi"></div>
+                        <div class ="phone_shown" id="xiaomi1"></div>
+                        <div class ="phone_shown" id="lg1"></div>
+                        <div class ="phone_shown" id="huawei1"></div>
+                        <div class ="phone_shown" id="samsung1"></div>
+                        <div class ="phone_shown" id="iphone2"></div>
+                        <div class ="phone_shown" id="nokia"></div>
+                        <div class ="phone_shown" id="lg2"></div>
+                        <div class ="phone_shown" id="iphone3"></div>
+                        <div class ="phone_shown" id="nokia1"></div>
+                        <div class ="phone_shown" id="lg"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="page_closed" id="page2">
+                <div class="products">
+                    <div class="filter">
+                        FILTER
+                        <div class="filterbutton" ><a id="fb8" href="javascript:filterFunction('ALL','watch_hidden','watch_shown','fb8',2)">Összes</a></div>
+                        <div class="filterbutton" ><a id="fb9" href="javascript:filterFunction('cronos','watch_hidden','watch_shown','fb9',2)">- Cronos</a></div>
+                        <div class="filterbutton" ><a id="fb10" href="javascript:filterFunction('ceas','watch_hidden','watch_shown','fb10',2)">- Cesa</a></div>
+                        <div class="filterbutton" ><a id="fb11" href="javascript:filterFunction('apple','watch_hidden','watch_shown','fb11',2)">- Apple</a></div>
+                        <div class="filterbutton" ><a id="fb12" href="javascript:filterFunction('isp','watch_hidden','watch_shown','fb12',2)">- ISP</a></div>
+                    </div>
+                    <div class="product_list">
+                        <div class ="watch_shown" id="crnos" >Cronos</div>
+                        <div class ="watch_shown" id="ceas">Ceas</div>
+                        <div class ="watch_shown" id="cronos1">Cronos</div>
+                        <div class ="watch_shown" id="apple">Apple</div>
+                        <div class ="watch_shown" id="isp">ISP</div>
+                        <div class ="watch_shown" id="isp1">ISP</div>
+                        <div class ="watch_shown" id="apple1">Apple</div>
+                        <div class ="watch_shown" id="ceas1">Ceas</div>
+                        <div class ="watch_shown" id="cronos2">Cronos</div>
+                        <div class ="watch_shown" id="apple2">Apple</div>
+                    </div>
+                </div>
+            </div>
+            <div class="page_closed" id="page3">
+                <div class="products">
+                    <div class="filter">
+                        FILTER
+                        <div class="filterbutton" ><a id="fb13" href="javascript:filterFunction('ALL','laptop_hidden','laptop_shown','fb13',3)">ALL</a></div>
+                        <div class="filterbutton" ><a id="fb14" href="javascript:filterFunction('dell','laptop_hidden','laptop_shown','fb14',3)">- Dell</a></div>
+                        <div class="filterbutton" ><a id="fb15" href="javascript:filterFunction('asus','laptop_hidden','laptop_shown','fb15',3)">- ASUS</a></div>
+                        <div class="filterbutton" ><a id="fb16" href="javascript:filterFunction('hp','laptop_hidden','laptop_shown','fb16',3)">- HP</a></div>
+                        <div class="filterbutton" ><a id="fb17" href="javascript:filterFunction('lenovo','laptop_hidden','laptop_shown','fb17',3)">- Lenovo</a></div>
+                        <div class="filterbutton" ><a id="fb18" href="javascript:filterFunction('acer','laptop_hidden','laptop_shown','fb18',3)">- Acer</a></div>
+                    </div>
+                    <div class="product_list">
+                        <div class ="laptop_shown" id="dell" >Dell</div>
+                        <div class ="laptop_shown" id="asus">Asus</div>
+                        <div class ="laptop_shown" id="lenovo">Lenovo</div>
+                        <div class ="laptop_shown" id="hp">HP</div>
+                        <div class ="laptop_shown" id="acer">Acer</div>
+                        <div class ="laptop_shown" id="acer1">Acer</div>
+                        <div class ="laptop_shown" id="dell1">Dell</div>
+                        <div class ="laptop_shown" id="asus1">Asus</div>
+                        <div class ="laptop_shown" id="lenovo1">Lenovo</div>
+                        <div class ="laptop_shown" id="lenovo2">Lenovo</div>
+                    </div>
+                </div>
+            </div>
+            <div class="page_closed" id="page4">
+                <div class="products">
+                    <div class="filter">
+                        FILTER
+                        <div class="filterbutton" ><a id="fb19" href="javascript:filterFunction('ALL','per_hidden','per_shown','fb19',4)">ALL</a></div>
+                        <div class="filterbutton" ><a id="fb20" href="javascript:filterFunction('eger','per_hidden','per_shown','fb20',4)">- Eger</a></div>
+                        <div class="filterbutton" ><a id="fb21" href="javascript:filterFunction('billentyuzet','per_hidden','per_shown','fb21',4)">- Billentyuzet</a></div>
+                        <div class="filterbutton" ><a id="fb22" href="javascript:filterFunction('headset','per_hidden','per_shown','fb22',4)">- Headset</a></div>
+                        <div class="filterbutton" ><a id="fb23" href="javascript:filterFunction('hangfal','per_hidden','per_shown','fb23',4)">- Hangfal</a></div>
+                    </div>
+                    <div class="product_list">
+                        <div class ="per_shown" id="eger" >eger</div>
+                        <div class ="per_shown" id="billentyuzet">billentyuzet</div>
+                        <div class ="per_shown" id="billentyuzet1">billentyuzet</div>
+                        <div class ="per_shown" id="eger1">eger</div>
+                        <div class ="per_shown" id="eger2">eger</div>
+                        <div class ="per_shown" id="hangfal">hangfal</div>
+                        <div class ="per_shown" id="headset">headset</div>
+                        <div class ="per_shown" id="headset1">headset</div>
+                        <div class ="per_shown" id="headset2">headset</div>
+                        <div class ="per_shown" id="eger3">eger</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

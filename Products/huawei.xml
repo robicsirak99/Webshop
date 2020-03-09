@@ -1,0 +1,9 @@
+<x>
+    <div id="disc">- 15%</div>
+    <img class="product_img" src="Images/huawei.jpg"/>
+    <p class="name">Huawei P20 Pro </p>
+    <p class="on_storage">- raktáron -</p>
+    <p class="price">232.390 Ft</p>
+    <p class="buy_button"><a href="asd.com"><img src="Images/basket.gif"/> Kosárba</a></p>
+</x>
+
